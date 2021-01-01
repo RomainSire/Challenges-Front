@@ -6,7 +6,7 @@ Le challenge était de reproduire aussi finement que possible la maquette fourni
 - Coder en seulement 1 heure !  
 - Ne plus toucher au HTML à partir du moment ou on commence le CSS
 
-NB: Pas de responsive poussé pour ce challenge (pas de maquette fournie, et timing très serré)  
+NB: Pas de responsive poussé pour ce challenge (pas de maquette fournie, et timing serré)  
 
 -----
 

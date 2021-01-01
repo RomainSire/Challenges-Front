@@ -4,16 +4,44 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Challenges Front</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Staatliches&display=swap" rel="stylesheet"> 
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Challenges frontend</h1>
-  <ul>
-    <li>
-      <a href="./Bilinguage/index.html">Bilinguage:</a> appli pour apprendre le japonais - Challenge : codé en 45min
-    </li>
-    <li>
-      <a href="./LampDesign/index.html">LampDesign:</a> landing page site vitrine - Challenge : codé en 1h, et ne pas toucher au html lorsque l'on commence le css
-    </li>
-  </ul>
+  <header>
+    <h1>Challenges frontend</h1>
+  </header>
+  <main>
+    <!-- CHALLENGE 1 = BILINGUAGE -->
+      <a class="card" href="./Bilinguage/index.html">
+        <h2>Bilinguage</h2>
+        <img src="./Bilinguage/maquette/maquette.png" alt="maquette de Bilinguage">
+        <h3>Description</h3>
+        <p>Reproduire aussi fidèlement que possible la maquette fournie d'une application pour apprendre le japonais</p>
+        <h3>Contraintes</h3>
+        <ul>
+          <li>À coder en 30 min</li>
+          <li>Pas de responsive</li>
+        </ul>
+        <h3>Feedback</h3>
+        <p>Finalement codé en 45min pour avoir un résultat correct. 30 minutes c'est très court en fait !</p>
+      </a>
+      <!-- CHALLENGE 2 = LAMPDESIGN -->
+      <a class="card" href="./LampDesign/index.html">
+        <h2>Lamp Design</h2>
+        <img src="./LampDesign/maquette/challenge2.png" alt="maquette de LampDesign">
+        <h3>Description</h3>
+        <p>Reproduire la maquette d'une page d'un site vitrine</p>
+        <h3>Contraintes</h3>
+        <ul>
+          <li>À coder en 1 heure</li>
+          <li>Ne plus toucher au html lorsque l'on commence le css</li>
+          <li>Pas de responsive</li>
+        </ul>
+        <h3>Feedback</h3>
+        <p>Codé en 50 min. :) J'ai quand même ajouté a postériori la classe "active" dans le html. J'aurais pu m'en sortir avec la pseudo classe last-child, mais ça n'aurait pas été très cohérent..</p>
+      </a>
+  </main>
 </body>
 </html>

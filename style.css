@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background: #f0f0f0;
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.6em;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+h1, h2, h3 {
+  margin: 0;
+  text-align: center;
+  font-family: 'Staatliches', cursive;
+}
+h1 {
+  font-size: 5em;
+  line-height: 1.2em;
+  color: black;
+  -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: black;
+}
+h2 {
+  padding: 0.5em 0;
+}
+h3 {
+  text-align: left;
+  margin-top: 1em;
+}
+p, ul {
+  margin: 0;
+}
+main {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
+main .card {
+  display: block;
+  width: 400px;
+  margin: 1em;
+  padding: 0.5em 1em;
+  transition: box-shadow 300ms;
+  border-radius: 15px;
+  background: #f0f0f0;
+}
+main .card:hover {
+  box-shadow: 8px 8px 16px #cccccc, -8px -8px 16px #ffffff;
+}
+img {
+  width: 100%;
+}
